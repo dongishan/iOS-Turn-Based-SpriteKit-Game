@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Deutsch.ttf">
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+            <string>Deutsch-Gothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="e9c-Ih-pcY" customClass="ROCAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="615" height="523"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Objective" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0L-H6-O4w">
+                    <rect key="frame" x="45" y="109" width="149" height="26"/>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Objectives" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF0-Pj-b3b">
+                    <rect key="frame" x="44" y="239" width="149" height="26"/>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objectives" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arT-tW-bxb">
+                    <rect key="frame" x="233" y="15" width="149" height="43"/>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="39"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="You need to destroy the opponent's watch tower to win this level." textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXf-dX-avM">
+                    <rect key="frame" x="39" y="135" width="486" height="46"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-Q0-1VU">
+                    <rect key="frame" x="39" y="266" width="476" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">Use your farmers to gather resources to build warriors. Farmers can collect Gold, Stone and Wood. Also use the farmers to build the Warrior house. </string>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quy-Ir-GDR">
+                    <rect key="frame" x="39" y="360" width="476" height="91"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">Use warriors to attack the enemy watch tower. Create as much as warriors you can, by strategicly manupulating your resources. To create warriors you first need to build the warrior house using farmers.</string>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="warrior_show" translatesAutoresizingMaskIntoConstraints="NO" id="0qX-BZ-cvf">
+                    <rect key="frame" x="523" y="335" width="63" height="99"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="farmer_show" translatesAutoresizingMaskIntoConstraints="NO" id="DoO-lV-mP7">
+                    <rect key="frame" x="523" y="243" width="63" height="99"/>
+                </imageView>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cn-kT-8sW">
+                    <rect key="frame" x="45" y="466" width="524" height="38"/>
+                    <color key="backgroundColor" red="0.7408658266" green="0.27377788710000001" blue="0.28158310219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="27"/>
+                    <state key="normal" title="Start">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="listButton:" destination="e9c-Ih-pcY" eventType="touchUpInside" id="VCq-sZ-UnP"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watch_tower" translatesAutoresizingMaskIntoConstraints="NO" id="Rag-jR-Bh2">
+                    <rect key="frame" x="541" y="37" width="60" height="178"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.84705889229999998" green="0.84705889229999998" blue="0.84705889229999998" alpha="1" colorSpace="deviceRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="531.5" y="-158.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="farmer_show" width="50" height="79"/>
+        <image name="warrior_show" width="50" height="79"/>
+        <image name="watch_tower" width="39" height="125"/>
+    </resources>
+</document>

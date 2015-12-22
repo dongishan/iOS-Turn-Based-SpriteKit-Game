@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  R.O.C
+//
+//  Created by Gishan Don Ranasinghe on 16/02/2015.
+//  Copyright (c) 2015 Gishan Don Ranasinghe. All rights reserved.
+//
+
+#ifndef R_O_C_PrefixHeader_pch
+#define R_O_C_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import "KLCPopup.h"
+#import "ROCAlertView.h"
+#import "ProjectEnums.h"
+#import "ProjectConstants.h"
+#import "Services.h"
+#import "Utilities.h"
+#import "Character.h"
+#import "Warrior.h"
+#import "Farmer.h"
+#import "Relic.h"
+#import "Resource.h"
+#import "Gold.h"
+#import "Stone.h"
+#import "Wood.h"
+#import "Building.h"
+#import "WarriorHouse.h"
+#import "Player.h"
+#import "HumanPlayer.h"
+#import "AIPlayer.h"
+#import "BaseViewController.h"
+#endif
